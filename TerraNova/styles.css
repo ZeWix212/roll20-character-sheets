@@ -1,0 +1,165 @@
+/* General reset to remove default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	font-family: 'Recolors Personal Use', sans-serif;
+	letter-spacing: 1px;
+	font-weight:bold;
+}
+.sheet {
+    background-image: url("Sheet.png");
+    background-size: cover; /* Makes sure the image covers the whole sheet area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+    padding: 20px;
+    border-radius: 8px;
+	width: 600px;
+	height: 1000px;
+    margin: 0 auto;
+    color: #fff;
+    position: relative;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+	color: black;
+	
+
+
+
+
+
+/* Header styling (title and basic info) */
+.header h1 {
+    text-align: Center; /* Center-align the title */
+	margin-top: -13px;
+    margin-bottom: 55px; /* Adds space below the title */
+    font-size: 2em; /* Make the title larger */
+}
+
+.basic-info {
+    display: flex;
+	margin-left: 110px;
+    flex-direction: column; /* Stack items vertically */
+    gap: 3px; /* Space between each info-box */
+    margin-bottom: 120px; /* Space below the basic info section */
+    width: 100%; /* Make the section take up the full width of the parent (optional) */
+}
+.basic-info input[type="text"] {
+    padding: 9px; /* Padding inside the textbox */
+    font-size: 14px; /* Font size inside the textbox */
+    border: 1px solid rgba(145,30,30); /* Light semi-transparent border */
+    border-radius: 40px; /* Rounds the input corners */
+	border-width: 2px;
+    background-color: rgba(255, 255, 255, 0); /* Semi-transparent background */
+    color: black; /* Text color inside the input box */
+}
+
+.info-box {
+    display: flex;
+    justify-content: flex-start; /* Align the items to the left */
+    align-items: center; /* Align input fields and labels on the same vertical level */
+}
+
+.info-box strong {
+    width: 150px; /* Set a fixed width for the label text to control its alignment */
+}
+
+.info-box input {
+	height: 20px;
+    width: 180px; /* Set a fixed width for the input fields */
+    margin-left: -75px; /* Adds a small space between the label and input */
+    padding: 5px; /* Padding inside input fields */
+    border: 1px solid #ccc; /* Border around the input */
+    border-radius: 4px; /* Rounds the input corners */
+}
+
+}
+
+.description {
+	margin-left: 305px;
+	margin-top: -230px;
+	height: 50px;
+
+}
+.description textarea {
+	resize: none;
+	width: 188px;
+	margin-bottom: 55px;
+	height: 80px;
+	border: 0px;
+	background-color: rgba(255, 255, 255, 0);
+}
+
+
+
+.allignment{
+	margin-left: 35px;
+	margin-top: 220px;
+}
+.allignment table{
+	font-size: 15px;
+	width: 490px;
+	color: Black;
+}
+.allignment td{
+	height: 40px;
+}
+.allignment h2{
+	font-size:30px;
+	margin-bottom: 10px;
+	margin-left: -20px;
+}
+
+.goodatributes {
+margin-top: 135px;
+margin-left: 10px;
+
+}
+.goodatributes textarea {
+	resize: none;
+	height: 35px;
+	width: 95px;
+	background-color: rgba(255, 255, 255, 0);
+	border: 0px;
+	font-size: 10px;
+	text-align: center;
+	line-height: 35px; 
+}
+#good2 {
+	margin-left: 13px;
+}
+
+#good3{
+	margin-left:57px;
+	margin-top: 11px;
+}
+
+
+
+.badatributes{
+	margin-top: -95px;
+	margin-left: 273px;
+}
+
+.badatributes textarea{
+	resize: none;
+	height: 35px;
+	width: 95px;
+	background-color: rgba(255, 255, 255, 0);
+	border: 0px;
+	font-size: 10px;
+	text-align: center;
+	line-height: 35px;
+}
+
+#bad2{
+	margin-left: 13px;
+}
+
+
+
+/* Media query for responsive design */
+@media (max-width: 600px) {
+    .info-box, .attribute, .skill, .trait {
+        flex-basis: 100%; /* On smaller screens, each item takes full width */
+    }
+}
