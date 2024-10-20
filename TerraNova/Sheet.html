@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<style>
+                            @import url('https://fonts.cdnfonts.com/css/recolors-personal-use');
+							@import url('https://github.com/ZeWix212/Moje/blob/8090aa3b788331939b7171990098a3ffcc76d629/Sheet.png')
+</style>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Sheet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sheet">
+        <div class="header">
+            <h1>Character Sheet</h1>
+            <div class="basic-info">
+                <div class="info-box"> <input type="text" placeholder="Jméno" name="name"></div>
+                <div class="info-box"> <input type="text" placeholder="Okupace" name="occupation"></div>
+                <div class="info-box"> <input type="text" placeholder="Výška" name="height"></div>
+                <div class="info-box"> <input type="text" placeholder="Váha" name="weight"></div>
+                <div class="info-box"> <input type="text" placeholder="Věk" name="age"></div>
+            </div>
+        </div>
+	
+
+    <div class="description">
+        <textarea placeholder="Minulost" name="description"></textarea>
+		<br>
+		<textarea placeholder="Detaily" name="details"></textarea>
+    </div>
+
+<div class="allignment">
+<table>
+<tr><td colspan="3"><h2 style="text-align:center;"> Lékařský posudek </h2><tr></td>
+<tr>
+<td><input type="radio"name="1"> Lawful good </td>
+<td><input type="radio"name="1"> Lawful neutral </td>
+<td><input type="radio"name="1"> Lawful evil </td>
+</tr>
+
+<tr>
+<td><input type="radio"name="1"> Neutral good</td>
+<td><input type="radio"name="1"> True Neutral</td>
+<td><input type="radio"name="1"> Neutral evil</td>
+</tr>
+
+<tr> 
+<td><input type="radio"name="1"> Chaotic good</td>
+<td><input type="radio"name="1"> Chaotic neutral</td>
+<td><input type="radio"name="1"> Chaotic Evil</td>
+</tr>            
+</table>
+
+<div class="goodatributes">
+<textarea id="good1"></textarea>
+<textarea id="good2"></textarea>
+<br>
+<textarea id="good3"></textarea>
+</div>
+
+<div class="badatributes">
+<textarea id="bad1"></textarea>
+<textarea id="bad2"></textarea>
+</div>
+
+</div>
+</div>
+</body>
+</html>
